@@ -13,11 +13,6 @@
         href="assets/img/favicon-3867f43151ecbff486335ae6a96d17d91d6169d20888131b4681d15b65e1425b.ico">
     <link rel="stylesheet" href="assets/css/style.min.css">
     <title>Document</title>
-    <style>
-        html{
-            scroll-behavior: smooth;
-        }
-    </style>
 </head>
 
 <body>
@@ -29,6 +24,7 @@
         </p>    
     </div>
     <div class="gradient_background"> </div>
+    <div class="container-xl p-0">
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-transparent  p-0">
         <button id="bars" class="navbar-toggler py-3" type="button" data-toggle="collapse" data-target="#navbarToggler"
@@ -53,13 +49,12 @@
         </div>
     </nav>
     <!-- header cards -->
-    <div class="container-lg ">
-
-        <header class="row  mx-auto">
-            <div class="col-12 col-lg-8 p-0 ">
-                <div class="card hero-img text-white text-center bg-transparent  mb-4">
-                    <div class="card-img-overlay  mx-auto  d-flex flex-column justify-content-center ">
-                        <div>
+    <header class=" container-fluid">
+      <div class="row ">
+        <div class="col-lg-8 col-12 contain  px-0 mb-3 m-lg-0 ">
+            <div class="card hero-img text-light ">
+               <div class="card-img-overlay  text-center justify-content-center d-flex flex-column ">
+                        <div class=" mx-sm-5 mx-3">
                             <p class="card-text">IN COLLABORATION WITH UNITY</p>
                             <h1 class="card-title h1 ">Learn ARKit</h1>
                             <p class="card-text py-2">Put your skills to work in the exciting field of AR, build your
@@ -69,44 +64,49 @@
                         </div>
 
                     </div>
+            </div>
+       </div>
+       <div class="col-lg-4  px-0   d-flex flex-column flex-md-row flex-lg-column justify-content-between align-items-strech"> 
+         <div class="col col-lg-auto px-0 pl-lg-3 ">
+                <div class="card   flex-row card__img ">
+                    <img class="h-100" src="assets/img/moduledfnd2x.png" alt="">
+                    <div class="card-body pt-2 pt-sm-3 ">
+                        <span class="badge text-color_main">New!</span>
+                        <h6 class="card-title text-color_gray font-weight-bold">Data Foundations Nanodegree</h6>
+                        <p class="card-text text-muted">Enroll Now</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-4">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-1">
-                    <div class="col mb-4">
-                        <div class=" card  flex-row card__img ">
-                            <img class="float-left" src="assets/img/moduledfnd2x.png" alt="">
-                            <div class="card-body pt-md-2 pl-md-2 p-2">
-                                <span class="badge text-color_main">New!</span>
-                                <h6 class="card-title text-color_gray font-weight-bold">Data Foundations Nanodegree</h6>
-                                <p class="card-text text-muted">Enroll Now</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-4 px-md-0 px-lg-3">
-                        <div class="card  flex-row card__img ">
-                            <img class="float-left rounded-left" src="assets/img/module-vr@2x.png" alt="">
-                            <div class="card-body pt-md-2 pl-md-2 p-2">
-                                <span class="badge text-color_main">Enroll today!</span>
-                                <h6 class="card-title text-color_gray font-weight-bold">Become a VR Developer</h6>
-                                <p class="card-text text-muted">With udacity and unity</p>
-                            </div>
-                        </div>
-                    </div>
+         </div>
 
-                    <div class="col mb-4  ">
-                        <div class="card  flex-row card__img ">
-                            <img class="float-left rounded-left" src="assets/img/module-aind@2x.png" alt="">
-                            <div class="card-body pt-md-2 pl-md-2 p-2">
-                                <span class="badge text-color_pink">New!</span>
-                                <h6 class="card-title text-color_gray font-weight-bold">Connect Bay Area</h6>
-                                <p class="card-text text-muted">Apply Now</p>
-                            </div>
-                        </div>
+               <div class="col col-lg-auto px-0 mx-md-3 mx-lg-0 pl-lg-3 my-3 my-md-0"> 
+                <div class=" card  flex-row card__img">
+                    <img class="h-100" src="assets/img/module-vr@2x.png" alt="">
+                    <div class="card-body pt-2 pt-sm-3">
+                        <span class="badge text-color_main">Enroll today!</span>
+                        <h6 class="card-title text-color_gray font-weight-bold">Become a VR Developer</h6>
+                        <p class="card-text text-muted">With udacity and unit</p>
                     </div>
-                </div> 
-            </div>
-        </header> 
+                </div>
+               </div>
+
+             <div class="col col-lg-auto px-0 pl-lg-3 "> 
+                <div class=" m-0 p-0 card  flex-row card__img ">
+                    <img class="h-100" src="assets/img/module-aind@2x.png" alt="">
+                    <div class="card-body pt-2 pt-sm-3">
+                        <span class="badge text-color_main">New!</span>
+                        <h6 class="card-title text-color_gray font-weight-bold">Connect Bay Area</h6>
+                        <p class="card-text text-muted">Apply Now</p>
+                    </div>
+                </div>
+             </div>
+                   
+        
+      
+       </div>
+      </div>
+     
+        
+    </header>
 
         <main class="col-12">
             <div class="container ">
@@ -253,28 +253,26 @@
                     class="mx-2">See all offerings</span> <a class="arrow" href="#"> <img class="" src="assets/img/icon-arrow-right-blue-ca654cfa279e4ca83b300ace463fc1d8a5708046de3f86abcc060bf89aa14ba0.svg" alt=""></a> 
             </p>
         </div>
-    </div>
 
-    <section class="enroll py-5">
-        <div class=" card h-100 bg-light col-10 col-sm-8 col-md-11 col-lg-9 mx-auto">
-            <div class="row align-items-center text-center card-body">
-                <div class="col-12 col-md-2 text-md-right">
+    <section class="contain  justify-content-center align-items-center py-md-4">
+        <div class=" card  bg-light col-10 col-md-9 rounded-lg ">
+            <div class="row align-items-center text-center card-body ">
+                <div class="col-12 col-md text-md-right ">
                     <img class=""
                         src="assets/img/icon_magnify_blue-ff7bcf6f4d2aa732141e49e2058aa844810ba446dc5ccd6243da24839faac959.svg"
                         alt="discover">
                 </div>
-                <div class="col-12 col-md-6 text-md-left">
+                <div class="col-12 col-md text-md-left ">
                     <h3 class="text-color_main h3 font-weight-normal ">imagine your future!</h3>
                     <p class="card-text">What do you want to learn today? What's your dream job? Discover the program
                         that's right for you!</p>
                 </div>
-                <div class="col-12 col-md-4 text-md-left">
-                    <a href="#" class="link button mt-1 w-75 px-0">GET STARTED</a>
+                <div class="col-12 col-md text-md-left  ">
+                    <a href="#" class="link button mt-1 w-auto ">GET STARTED</a>
                 </div>
             </div> 
         </div>
     </section>
-    <div class="container-lg">
         <section class="advantage  mx-auto">
             <h2 class="text-center text-color_main h2 font-weight-normal py-5">The Udacity Advantage</h2>
             <div class="col-12 text-center text-md-left ">
